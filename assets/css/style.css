@@ -8,6 +8,12 @@ body{
     background-color: #d0ccd0;
 }
 
+header{
+    background-color: rgba(255, 255, 255, 0.651);
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
 .Introduction h1{
     text-align: center;
     border: 5px solid black;
@@ -15,6 +21,12 @@ body{
     padding: 20px 20px 20px 20px;
     background-color: rgba(255, 255, 255, 0.651);
     font-size: 22pt;
+}
+
+.Introduction img{
+    border-radius: 75px;
+    margin: 20px 20px 20px 20px;
+    float: right;
 }
 
 .Introduction p{
@@ -35,6 +47,13 @@ body{
     padding: 20px 20px 20px 20px;
 }
 
+.What_I_do{
+    display: inline;
+}
+
+.What_I_do p img{
+    float: right;
+}
 .About_me h3{
     margin: 0 10% 0 10%;
     text-align: center;
