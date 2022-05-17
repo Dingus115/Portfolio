@@ -1,36 +1,55 @@
+/*set default margin/padding/font*/
 *{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*set default backgroud color for the ENTIRE website*/
 body{
     background-color: #d0ccd0;
 }
 
+/*change website links background color and padding*/
 header{
     background-color: rgba(255, 255, 255, 0.651);
     padding: 10px 0 10px 0;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
+header ul{
+    display: inline;
+}
+
+/*Center name header, create box, add bold*/
 .Introduction h1{
+    margin: 0 5% 0 5%;
     text-align: center;
     border: 5px solid black;
     border-radius: 20px;
-    padding: 20px 20px 20px 20px;
+    padding: 15px 20px 15px 20px;
     background-color: rgba(255, 255, 255, 0.651);
     font-size: 22pt;
 }
 
+/*wrap both img and p in div to adjust position underneath h1*/
+.Introduction div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+}
+
 .Introduction img{
     border-radius: 75px;
-    margin: 20px 20px 20px 20px;
-    float: right;
+    margin: 20px 50px 20px 20px;
 }
 
 .Introduction p{
     padding: 20px 20px 20px 20px;
+    width: 300px;
 }
 
 .What_I_do h2{
@@ -43,17 +62,19 @@ header{
     font-size: 16pt;
 }
 
+.What_I_do div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 20px 10px 20px;
+}
+
 .What_I_do p{
-    padding: 20px 20px 20px 20px;
+    padding: 20px 40px 20px 20px;
+    width: 300px;
 }
 
-.What_I_do{
-    display: inline;
-}
-
-.What_I_do p img{
-    float: right;
-}
 .About_me h3{
     margin: 0 10% 0 10%;
     text-align: center;
@@ -66,6 +87,11 @@ header{
 
 .About_me p{
     padding: 20px 20px 20px 20px;
+    width: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
 }
 
 .contacts p{
@@ -76,4 +102,71 @@ header{
 
 footer{
     background-color: rgba(255, 255, 255, 0.651);
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/*END OF EDITS ON INDEX.HTML*/
+
+/*BEGINING OF EDITS ON projects.html*/
+.project_example h1{
+    margin: 0 10% 0 10%;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 5px 0 5px 0;
+    background-color: rgba(255, 255, 255, 0.651);
+    font-size: 16pt;
+}
+
+.capstoneProject img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0 15px 0;
+}
+
+.capstoneProject p{
+    padding: 20px 60px 20px 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+
+.javaProject img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0 15px 0;
+}
+/*END OF EDITS ON projects.HTML*/
+
+/*BEGINING OF EDITS ON aboutWebsite.html*/
+/*Create default header information*/
+.siteInfo h4{
+    margin: 0 10% 0 10%;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 5px 0 5px 0;
+    background-color: rgba(255, 255, 255, 0.651);
+    font-size: 16pt;
+}
+
+/*center p and add padding*/
+.siteInfo p{
+    padding: 20px 60px 20px 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+/*center image in page*/
+.siteInfo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

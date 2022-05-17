@@ -12,6 +12,7 @@
 
 <!--contains the acutal website information-->
     <body>
+        
         <!--header element-->
         <header id="header" class="header">
             <nav>
@@ -23,41 +24,53 @@
             </nav>
         </header>
 
-        <!--First header and main website introduction-->
-        <section id="Introduction" class="Introduction">
-            <h1>Justin Hannah</h1>
-            <p>
-                <img src="..\GitProjects\assets\images\selfie.jpg" alt="Justin Hannah" width="325">
-                &emsp;I am a application development major from Gaston Community College in Dallas NC.
-                I have worked in a development field for almost a year now with intermediate knowledge in SQL/MySQL and C# development languages with some experience in C++, Java, Python, HTML5, CSS, and kotlin.
-                My IDE of choice is visual studio or eclipse.
-            </p>
-        </section>
-        
-        <!--Declare what I do-->
-        <section id="What_I_do" class="What_I_do">
-            <h2>
-                What I do
-            </h2>
-            <p>
-                &emsp;I mainly code in C# and Java but love to work in other languages for the experience/variety. I also have experience in C++, Python, HTML5, CSS, and Kotlin.
-                For C# I have mainly worked in WinForms and console apps for creating applications that save/delete/edit and move database entries.
-                For Java I have some experience when creating GUI applications but have mainly edited database in console windows.
-            </p>
-        </section>
+        <div>
+            
+        </div>
+        <div>
+            <!--First header and main website introduction-->
+            <section id="Introduction" class="Introduction">
+                <h1>Justin Hannah</h1>
+                <!--wrap both elements in div to edit position reltive to site-->
+                <div class="container">
+                    <img src="..\GitProjects\assets\images\selfie.jpg" alt="Justin Hannah" width="250">
+                    <p>
+                        &emsp;I am a application development major from Gaston Community College based in Dallas NC.
+                        I have worked in a development field for almost a year now with intermediate knowledge in SQL/MySQL and C# development languages with some experience in C++, Java, Python, HTML5, CSS, and kotlin.
+                        My IDE of choice is visual studio or eclipse.
+                    </p>
+                </div>
+            </section>
+            
+            <!--Declare what I do-->
+            <section id="What_I_do" class="What_I_do">
+                <h2>
+                    What I do
+                </h2>
+                <div>
+                    <p>
+                        &emsp;I mainly code in C# and Java but love to work in other languages for the experience/variety. Languages I currently have some experience in include C++, Python, HTML5, CSS, and Kotlin.
+                        For C# I have mainly worked in WinForms and console apps for creating applications that save/delete/edit and move database entries.
+                        For Java I have some experience when creating GUI applications but have mainly edited database in smaller console applications. 
+                        I am currently learning and have some experience in ASP.NET, with my current goal to take my Capstone project and turn it from a Windows apllication to a website.
+                    </p>
+                    <img src="..\GitProjects\assets\images\project.png" alt="Justin Hannah" width="500">
+                </div>
+            </section>
 
-        <!--About me section-->
-        <section id="About_me" class="About_me">
-            <h3>About me</h3>
-            <p>
-                &emsp;I love to code and play music. I started coding in 2017 in a python based website called Scratch. 
-                There I learned the basic concepets of programming and was fascinated with the idea of getting a computer to do what I say.
-                After graduatiing high-school I went to WCU and studied music for 3 years with some more programming experience in Python.
-                I then transfered to Gaston Community college in 2020 to follow a career in Application developement where I studied C#, Java, C++, Python, HTML5, CSS, and Kotlin.
-                The course mainly focused on teaching C# and Java 
-            </p>
-        </section>
-
+            <!--About me section-->
+            <section id="About_me" class="About_me">
+                <h3>About me</h3>
+                <p>
+                    &emsp;I love to code and play music. I started coding in 2017 in a python based website called Scratch. 
+                    There I learned the basic concepets of programming and was fascinated with the idea of getting a computer to do what I say.
+                    After graduatiing high-school I went to WCU and studied music for 3 years with some more programming experience in Python.
+                    I then transfered to Gaston Community college in 2020 to follow a career in Application developement where I studied C#, Java, C++, Python, HTML5, CSS, and Kotlin.
+                    The courses at Gaston Community college mainly focused on teachingadvanced concepts dealing with C# and Java with giving students some experience in other languages mentioned before. 
+                    The final lessons in the course showed GUI programming along with asking students to learn some form of SQL on their own.
+                </p>
+            </section>
+        </div>
         <!--conacts at the bottom of the page-->
         <footer>
             <Section id="contacts" class="contacts">
@@ -67,11 +80,5 @@
                 <p>Github: <a href="https://github.com/Dingus115">Justin Hannah</a></p>
             </Section>
         </footer>
-
-
-
-<!--I have experience in Front End and Back End developement for those 2 languages.<br>
-                When it comes to working in SQL or My SQL I mainly do most data edits through MySQL editor or SSMS (SQL Server Monitor Tool). 
-                For my Capstone class in college we were required to create and edit a database of our choise using two different languages. -->
     </body>
 </html>
