@@ -142,6 +142,14 @@ footer{
     margin-right: auto;
     padding: 20px 0 15px 0;
 }
+
+.javaProject p{
+    padding: 20px 60px 20px 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
 /*END OF EDITS ON projects.HTML*/
 
 /*BEGINING OF EDITS ON aboutWebsite.html*/
